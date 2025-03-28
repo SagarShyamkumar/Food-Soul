@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Login.dart';
+// import 'Login.dart';
 
 class Intropage extends StatelessWidget {
   const Intropage({super.key});
@@ -40,12 +40,12 @@ class Intropage extends StatelessWidget {
             ),
             const SizedBox(height: 48),
             GestureDetector(
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Login(),
-                ),
-              ),
+              // onTap: () => Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => Login(),
+              //   ),
+              // ),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.orange[300],
