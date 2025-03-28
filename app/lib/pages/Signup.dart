@@ -1,4 +1,4 @@
-import 'package:flutter/materials.dart';
+import 'package:flutter/material.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -6,15 +6,8 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Login'),
-      ),
-      body: const Center(
-        child: Text(
-          'Login',
-          style: TextStyle(fontSize: 24),
-        ),
-      ),
+      appBar: AppBar(title: const Text('Login')),
+      body: const Center(child: Text('Login', style: TextStyle(fontSize: 24))),
     );
   }
 }
